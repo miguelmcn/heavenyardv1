@@ -1,0 +1,18 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ 		 	    	    		HomeR    	 GET 
+/cliente 			    		ClienteR 	 GET POST
+/cliente/email/#Text    		CliEmailR 	 GET
+/cliente/id/#ClienteId  		CliIdR		 GET PUT DELETE
+/cliente/#ClienteId/nome/#Text	CliNomeR	 PATCH
+
+/livro							LivroR		 GET POST
+/livro/id/#LivroId				LivroIdR	 GET
+
+/compra							CompraR		 POST
+/compra/livro/#LivroId   		BuscarCliR 	 GET
+/compra/cliente/#ClienteId 		BuscarLivroR GET
+/venda/#LivroId 				VendaR		 GET
