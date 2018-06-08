@@ -1,0 +1,19 @@
+Cliente json
+    nome        Text
+    email       Text
+    UniqueEmail email
+    deriving Show
+
+Compra json
+	livroid 	LivroId
+	clienteid 	ClienteId
+	efetuado 	Day
+	deriving Show
+
+Livro json
+	nome 		Text
+	isbn 		Text
+	publ 		Day
+	desc 		Text Maybe
+	preco		Double
+	deriving Show
